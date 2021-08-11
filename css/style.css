@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+あると便利なもの
+
+@font-face {
+  font-family: "名前";
+  src: url("ルーティング(どこのファイルの何 ../font/~~~");
+  font-weight: "太さ 100とか300とか";
+}
+
+:root{
+    --maingreen: #419e9d;
+  }
+  これやると color: var(--maingray);で通るし一遍に色変えれるから地味に便利
+ */
+
+body {
+  background: linear-gradient(to bottom right, #d1e3e7, #f9d0d8);
+}
