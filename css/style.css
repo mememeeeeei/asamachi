@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "Tulpen";
+  src: url(font/TulpenOne-Regular.ttf);
+  font-weight: 100;
+}
 /*
 あると便利なもの
 
@@ -20,5 +24,35 @@
  */
 
 body {
-  background: linear-gradient(to bottom right, #d1e3e7, #f9d0d8);
+  background: linear-gradient(to bottom right, #9eadc8, #b2a1c2);
+}
+
+.main-visual {
+  width: 100%;
+  margin-top: 50px;
+}
+
+h1 {
+  /* font-family: tenby-stencil, sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+  font-family: "Tulpen";
+  font-size: 600%;
+  font-weight: 200;
+  letter-spacing: 15px;
+  width: 100%;
+  text-align: center;
+  color: #fefefe;
+  margin: 10px 0 10px 0;
+}
+
+p {
+  font-family: "Tulpen";
+  font-size: 280%;
+  font-weight: 200;
+  letter-spacing: 15px;
+  width: 100%;
+  text-align: center;
+  color: #fefefe;
+  margin: 10px 0 10px 0;
 }
