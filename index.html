@@ -16,14 +16,35 @@
     <!-- jquery読み込み(必要な人のみ) -->
     <link rel="stylesheet" href="https://use.typekit.net/iiz0zae.css" />
 
-    <script src="./script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="./script.js"></script> -->
   </head>
 
   <body>
     <div class="main-visual">
-      <h1 class="main-visual-title">asamachi</h1>
-      <p id="main-visual-time"></p>
+      <div class="main-visual-text">
+        <h1 class="main-visual-title">asamachi</h1>
+        <p id="main-visual-time" class="main-visual-time"></p>
+      </div>
+      <!-- <div class="main-visual-img-wrap">
+        <img src="images/Rectangle 9.png" alt="" />
+      </div> -->
+      <div class="main-visual-video-wrap">
+        <!-- <h3>Video 1 (Only plays 6 seconds of video with 100px delay</h3> -->
+        <!-- Video 1 -->
+        <video
+          id="scrolleo-2"
+          width="100%"
+          height="100%"
+          autobuffer="autobuffer"
+          preload="preload"
+        >
+          <source src="town2.mp4" />
+        </video>
+      </div>
+      <a href="#">
+        <p class="img-link">take a peek</p>
+      </a>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -24,35 +24,58 @@
  */
 
 body {
+  height: 8000px;
   background: linear-gradient(to bottom right, #9eadc8, #b2a1c2);
 }
 
 .main-visual {
+  position: fixed;
   width: 100%;
-  margin: 50px 0 25px 0;
+  font-family: "Tulpen";
+  letter-spacing: 15px;
+  margin: 50px 0;
+  /* margin: 500px 0; */
 }
+
+/* .main-visual-text {
+ 
+} */
 
 h1 {
-  /* font-family: tenby-stencil, sans-serif;
+  font-size: 630%;
   font-weight: 200;
-  font-style: normal; */
-  font-family: "Tulpen";
-  font-size: 600%;
-  font-weight: 200;
-  letter-spacing: 15px;
   width: 100%;
+  letter-spacing: 45px;
   text-align: center;
   color: #fefefe;
-  margin-bottom: 10px;
+  padding: 5px 0;
 }
 
-p {
-  font-family: "Tulpen";
+.main-visual-time {
   font-size: 280%;
   font-weight: 200;
-  letter-spacing: 15px;
   width: 100%;
   text-align: center;
   color: #fefefe;
-  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.main-visual-video-wrap {
+  margin: 30px auto;
+  width: 53%;
+}
+
+.img-link {
+  font-size: 200%;
+  font-weight: 200;
+  width: 100%;
+  text-align: center;
+  color: #fefefe;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fefefe;
+  border-bottom: 3px;
 }
