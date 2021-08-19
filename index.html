@@ -20,26 +20,28 @@
   </head>
 
   <body>
-    <div class="main-visual">
-      <div class="main-visual-text">
-        <h1 class="main-visual-title">asamachi</h1>
-        <p id="main-visual-time" class="main-visual-time"></p>
+    <div class="background">
+      <div class="main-visual">
+        <div class="main-visual-text">
+          <h1 class="main-visual-title">asamachi</h1>
+          <p id="main-visual-time" class="main-visual-time"></p>
+        </div>
+        <div class="main-visual-video-wrap">
+          <video
+            id="scrolleo-2"
+            width="100%"
+            height="100%"
+            autobuffer="autobuffer"
+            preload="preload"
+          >
+            <source src="town.mp4" />
+          </video>
+        </div>
+        <a href="photo.html">
+          <p class="img-link">take a peek</p>
+        </a>
       </div>
-      <div class="main-visual-video-wrap">
-        <video
-          id="scrolleo-2"
-          width="100%"
-          height="100%"
-          autobuffer="autobuffer"
-          preload="preload"
-        >
-          <source src="town.mp4" />
-        </video>
-      </div>
-      <a href="photo.html">
-        <p class="img-link">take a peek</p>
-      </a>
+      <script src="./script.js"></script>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>
