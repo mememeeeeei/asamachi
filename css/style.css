@@ -24,22 +24,18 @@
  */
 
 body {
-  height: 8000px;
+  height: 2000px;
   background: linear-gradient(to bottom right, #9eadc8, #b2a1c2);
 }
 
 .main-visual {
   position: fixed;
   width: 100%;
+  height: 100%;
   font-family: "Tulpen";
   letter-spacing: 15px;
-  margin: 50px 0;
-  /* margin: 500px 0; */
+  margin: 80px 0;
 }
-
-/* .main-visual-text {
- 
-} */
 
 h1 {
   font-size: 630%;
@@ -48,7 +44,7 @@ h1 {
   letter-spacing: 45px;
   text-align: center;
   color: #fefefe;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 .main-visual-time {
@@ -57,7 +53,7 @@ h1 {
   width: 100%;
   text-align: center;
   color: #fefefe;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 .main-visual-video-wrap {
@@ -71,7 +67,7 @@ h1 {
   width: 100%;
   text-align: center;
   color: #fefefe;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 a {
